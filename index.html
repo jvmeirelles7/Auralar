@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuraLar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="imagem/home-site.jpeg">
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="nav-bar">
+      <div class="auralar">AuraLar</div>
+      <div class="lista-home-nav">
+        <div class="component-8">
+          <a class="text" href="#Alugar">Alugar</a>
+        </div>
+        <div class="component-81">
+          <a class="text" href="#Comprar">Comprar</a>
+        </div>
+        <div class="component-81">
+          <a class="text" href="#casas-novas">Casas Novas</a>
+        </div>
+        <div class="component-81">
+          <a class="text" href="#financiamento">Financiamento</a>
+        </div>
+        <div class="component-81">
+          <a class="text" href="#sobre-nos">Sobre Nós</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="logo">
+    <img src="imagem/logo.png">
+    <h2 id="lg-text">Aura</h2>
+    <h2 id="lg-text2">lar</h2>
+  </div>
+  </div>
+
+
+
+  <div class="video">
+    <video autoplay="" loop="" height="100%" width="100%" class="WelcomePieces_video_render__bOvgT"
+      src="https://fotos.sobressai.com.br/Fotos/Videos/default-2.mp4">
+      <track kind="captions" label="Legenda" src="legenda.vtt">
+    </video>
+  </div>
+
+  <div class="titulo">
+    <p class="text-home">A casa que você desejar está aqui.<br>No AuraLar</p>
+    <p class="text-home">você encontra +5 milhões de imóveis.</p>
+  </div>
+
+  </header>
+
+
+
+  <div class="formulario">
+    <form action="#" method="POST"></form>
+    <!-- valor maximo -->
+    <div class="valor-max"> Valor máximo </div>
+    <select name="valor-maximo" class="valor-max2">
+      <option value="">Escolhe</option>
+      <option value="100000">Até R$ 100.000</option>
+      <option value="200000">Até R$ 200.000</option>
+      <option value="300000">Até R$ 300.000</option>
+      <option value="500000">Até R$ 500.000</option>
+    </select>
+
+    <!-- TIPO DE Imóveis -->
+    <div class="tipo-de-imoveis"> Tipo de imóveis </div>
+    <select name="tipo-imovel" class="tipo-de-imoveis2">
+      <option value="">Escolhe</option>
+      <option value="casa">Casa</option>
+      <option value="apartamento">Apartamento</option>
+      <option value="terreno">Terreno</option>
+      <option value="comercial">Comercial</option>
+    </select>
+
+    <!-- onde desejar morar -->
+
+    <div class="onde-desejar-morar">onde desejar morar?</div>
+    <select name="lugar" class="onde-desejar-morar2">
+      <option value="">Localização</option>
+      <option value="rio de janeiro">Rio de Janeiro</option>
+      <option value="são paulo">São Paulo</option>
+      <option value="minas gerais">Minas Gerais</option>
+      <option value="espirito santo">Espírito Santo</option>
+      <option value="goias">Goias</option>
+    </select>
+
+    <!-- preferencia de compra ou aluguel -->
+    <div class="preferencia">Preferencia</div>
+    <select name="preferencia" class="preferencia1">
+      <option value="">Escolhe</option>
+      <option value="comprar">Comprar</option>
+      <option value="alugar">Alugar</option>
+    </select>
+
+    <!-- buscar -->
+    <button class="button1" type="submit" style="margin-top: 10px;">Buscar</button>
+    </form>
+  </div>
+
+
+
+  <div class="categorias">
+    <h1 id="titulo">categorias</h1>
+    <div id="linha"></div>
+    <!-- Card Section -->
+    <div class="card-section">
+      <div class="card">
+        <img class="ctgria-img" id="img" src="imagem/garagem 1.png" alt="Imóvel 2">
+        <div class="card-content">
+          <h3 class="titulo-card">Um novo lar também para seu pet!</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img class="ctgria-img" id="img1" src="imagem/garagem 1.png" alt="Imóvel 2">
+        <div class="card-content">
+          <h3 class="titulo-card">O seu churrasco começa aqui!</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img class="ctgria-img" id="img2" src="imagem/garagem 1.png" alt="Imóvel 2">
+        <div class="card-content">
+          <h3 class="titulo-card">A varanda com vista dos sonhos!</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img class="ctgria-img" id="img3" src="imagem/garagem 1.png" alt="Imóvel 2">
+        <div class="card-content">
+          <h3 class="titulo-card">A casa ideal para voce que tem carro!</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <picture>
+    <img class="propaganda" src="imagem/propaganda.png" style="width: 1192.21px; height: 180px;" alt="">
+  </picture>
+
+
+  <h1 class="titulo2">O imóveis ideal pra você</h1>
+
+  <h1 id="titulo">Laçamentos </h1>
+  <div class="linha" id="linha2"></div>
+
+  <!-- Cards slider wrapper -->
+  <div class="cards-slider-wrapper">
+    <div class="cards-slider">
+      <!-- Property cards will be inserted here -->
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA14.avif" alt="Casa Container Moderna">
+        </div>
+        <div class="property-info">
+          <h3>Casa Container Moderna</h3>
+          <div class="property-details">
+            <span class="property-price">R$450.000</span>
+            <span class="property-size">95m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA13.avif" alt="Casa Moderna">
+        </div>
+        <div class="property-info">
+          <h3>Casa Moderna XL</h3>
+          <div class="property-details">
+            <span class="property-price">R$580.000</span>
+            <span class="property-size">120m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA12.avif" alt="Casa Ecológica Compacta">
+        </div>
+        <div class="property-info">
+          <h3>Casa Ecológica Compacta</h3>
+          <div class="property-details">
+            <span class="property-price">R$380.000</span>
+            <span class="property-size">75m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 1</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA13.avif" alt="Casa Sustentável Família">
+        </div>
+        <div class="property-info">
+          <h3>Casa Sustentável Família</h3>
+          <div class="property-details">
+            <span class="property-price">R$520.000</span>
+            <span class="property-size">105m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 1</span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="imagem/CASA14.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza2</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA2.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA3.avif" Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza copy</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA4.avif" Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza copy</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA5.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza copy</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA6.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA7.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Clone of first cards for infinite scrolling -->
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA8.avif" alt="Casa Container Moderna">
+        </div>
+        <div class="property-info">
+          <h3>Casa Container Moderna</h3>
+          <div class="property-details">
+            <span class="property-price">R$450.000</span>
+            <span class="property-size">95m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA9.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA10.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza3</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Navigation buttons for the slider -->
+    <button class="slider-nav prev-btn">&#10094;</button>
+    <button class="slider-nav next-btn">&#10095;</button>
+  </div>
+  </div>
+
+
+  <h1 id="titulo">Casas </h1>
+  <div class="linha" id="linha2"></div>
+
+
+  <div class="cards-slider-wrapper">
+    <div class="cards-slider" id="card02">
+      <!-- Property cards will be inserted here -->
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA14.avif" alt="Casa Container Moderna">
+        </div>
+        <div class="property-info">
+          <h3>Casa Container Moderna</h3>
+          <div class="property-details">
+            <span class="property-price">R$450.000</span>
+            <span class="property-size">95m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA13.avif" alt="Casa Moderna">
+        </div>
+        <div class="property-info">
+          <h3>Casa Moderna XL</h3>
+          <div class="property-details">
+            <span class="property-price">R$580.000</span>
+            <span class="property-size">120m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA12.avif" alt="Casa Ecológica Compacta">
+        </div>
+        <div class="property-info">
+          <h3>Casa Ecológica Compacta</h3>
+          <div class="property-details">
+            <span class="property-price">R$380.000</span>
+            <span class="property-size">75m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 1</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA13.avif" alt="Casa Sustentável Família">
+        </div>
+        <div class="property-info">
+          <h3>Casa Sustentável Família</h3>
+          <div class="property-details">
+            <span class="property-price">R$520.000</span>
+            <span class="property-size">105m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 1</span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="imagem/CASA14.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza2</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA2.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA3.avif" Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza copy</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA4.avif" Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza copy</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA5.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza copy</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA6.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA7.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Clone of first cards for infinite scrolling -->
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA8.avif" alt="Casa Container Moderna">
+        </div>
+        <div class="property-info">
+          <h3>Casa Container Moderna</h3>
+          <div class="property-details">
+            <span class="property-price">R$450.000</span>
+            <span class="property-size">95m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 2</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 1</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA9.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="property-card">
+        <div class="property-image">
+          <img src="IMAGEM/CASA10.avif" alt="Casa Premium Natureza">
+        </div>
+        <div class="property-info">
+          <h3>Casa Premium Natureza3</h3>
+          <div class="property-details">
+            <span class="property-price">R$780.000</span>
+            <span class="property-size">150m²</span>
+          </div>
+          <div class="property-features">
+            <span class="feature"><i class="feature-icon">🛏️</i> 4</span>
+            <span class="feature"><i class="feature-icon">🚿</i> 3</span>
+            <span class="feature"><i class="feature-icon">🚗</i> 2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Navigation buttons for the slider -->
+    <button class="slider-nav prev-btn">&#10094;</button>
+    <button class="slider-nav next-btn">&#10095;</button>
+  </div>
+  </div>
+
+  <div class="bloco">
+    <h1 class="titulo-b">Buscas mais populares</h1>
+     <div class="linha-titulo-b"></div>
+
+    <div class="paragrafos">
+      <p>Imóveis à venda em Campinas</p>
+      <p>Imóveis à venda na Praia Grande</p>
+      <p>Imóveis à venda em Guarulhos</p>
+      <p>Terrenos à venda em São Paulo</p>
+      <p>Casas para alugar em Salvador</p>
+      <p>Imóveis à venda em São Bernardo</p>
+
+      <p>Aluguel de apartamentos no Rio de Janeiro</p>
+      <p>Terrenos à venda no Rio de Janeiro</p>
+      <p>Casas para alugar no Rio de Janeiro</p>
+      <p>Imóveis à venda em Santo André</p>
+      <p>Imóveis à venda no Guarujá</p>
+      <p>Imóveis para alugar no Guarujá</p>
+
+      <p>Apartamentos para alugar em Goiânia</p>
+      <p>Imóveis à venda em Brasília</p>
+      <p>Imóveis à venda em Salvador</p>
+      <p>Imóveis à venda em Curitiba</p>
+      <p>Imóveis para alugar em Curitiba</p>
+      <p>Apartamento para alugar em Porto Alegre</p>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="moveis">
+          <h2>Encontre imóveis</h2>
+          <p>Alugar</p>
+          <p>Comprar</p>
+          <p>Lançamentos</p>
+          <p>Descobrir</p>
+          <p>Simulado de Financiamento</p>
+        </div>
+
+        <div class="Institucional">
+          <h2>Institucional</h2>
+          <p>Quer trabalha conosco</p>
+          <p>Ajuda</p>
+          <p>Blog</p>
+          <p>Mapa do site</p>
+          <p>Regiões mais buscadas</p>
+        </div>
+
+        <div class="anunciantes">
+          <h2>Anunciantes</h2>
+          <p>Avaliação de imóveis</p>
+          <p>Anunciar imóveis</p>
+          <p>Anunciar como corretor(a)/imobiliária</p>
+          <p>Anunciar como proprietário(a)</p>
+        </div>
+
+        <div class="social">
+          <h2>Social</h2>
+          <img src="" alt="Fecebook">
+          <img src="" alt="Instagram">
+        </div>
+
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
