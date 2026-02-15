@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     if (!prevButton || !nextButton || cards.length === 0) return;
     
-    const cardWidth = cards[0].offsetWidth + 19;
+    const cardWidth = cards[0].offsetWidth + 0;
     let currentPosition = 0;
 
     function updateSliderPosition() {

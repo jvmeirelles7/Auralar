@@ -13,7 +13,7 @@
 <body>
   <div class="main">
     <div class="nav-bar">
-      <div class="auralar">AuraLar</div>
+
       <div class="lista-home-nav">
         <div class="component-8">
           <a class="text" href="#Alugar">Alugar</a>
@@ -30,6 +30,7 @@
         <div class="component-81">
           <a class="text" href="#sobre-nos">Sobre Nós</a>
         </div>
+
       </div>
     </div>
   </div>
@@ -37,25 +38,27 @@
 
   <div class="logo">
     <img src="imagem/logo.png">
-    <h2 id="lg-text">Aura</h2>
-    <h2 id="lg-text2">lar</h2>
-  </div>
+    <h2 id="lg-text">AuraLar</h2>
   </div>
 
 
 
-  <div class="video">
-    <video autoplay="" loop="" height="100%" width="100%" class="WelcomePieces_video_render__bOvgT"
-      src="https://fotos.sobressai.com.br/Fotos/Videos/default-2.mp4">
-      <track kind="captions" label="Legenda" src="legenda.vtt">
-    </video>
-  </div>
+  <header class="hero">
+    <div class="hero__video-wrapper">
+      <video autoplay loop muted playsinline class="hero__video">
+        <source src="https://fotos.sobressai.com.br/Fotos/Videos/default-2.mp4" type="video/mp4">
+      </video>
+    </div>
 
-  <div class="titulo">
-    <p class="text-home">A casa que você desejar está aqui.<br>No AuraLar</p>
-    <p class="text-home">você encontra +5 milhões de imóveis.</p>
-  </div>
-
+    <div class="hero__content">
+      <div class="hero__text-container">
+        <h1 class="hero__title">
+          A casa que você desejar está aqui.<br>
+          <span class="hero__brand">No AuraLar</span>
+        </h1>
+        <p class="hero__subtitle">você encontra +5 milhões de imóveis.</p>
+      </div>
+    </div>
   </header>
 
 
@@ -112,6 +115,7 @@
   <div class="categorias">
     <h1 id="titulo">categorias</h1>
     <div id="linha"></div>
+
     <!-- Card Section -->
     <div class="card-section">
       <div class="card">
@@ -749,72 +753,103 @@
   </div>
   </div>
 
-  <div class="bloco">
-    <h1 class="titulo-b">Buscas mais populares</h1>
-     <div class="linha-titulo-b"></div>
 
-    <div class="paragrafos">
-      <p>Imóveis à venda em Campinas</p>
-      <p>Imóveis à venda na Praia Grande</p>
-      <p>Imóveis à venda em Guarulhos</p>
-      <p>Terrenos à venda em São Paulo</p>
-      <p>Casas para alugar em Salvador</p>
-      <p>Imóveis à venda em São Bernardo</p>
 
-      <p>Aluguel de apartamentos no Rio de Janeiro</p>
-      <p>Terrenos à venda no Rio de Janeiro</p>
-      <p>Casas para alugar no Rio de Janeiro</p>
-      <p>Imóveis à venda em Santo André</p>
-      <p>Imóveis à venda no Guarujá</p>
-      <p>Imóveis para alugar no Guarujá</p>
+  <section class="popular-searches">
+    <div class="popular-searches__container">
+      <h2 class="popular-searches__title">Buscas mais populares</h2>
+      <div class="popular-searches__divider"></div>
 
-      <p>Apartamentos para alugar em Goiânia</p>
-      <p>Imóveis à venda em Brasília</p>
-      <p>Imóveis à venda em Salvador</p>
-      <p>Imóveis à venda em Curitiba</p>
-      <p>Imóveis para alugar em Curitiba</p>
-      <p>Apartamento para alugar em Porto Alegre</p>
+      <div class="popular-searches__grid">
+        <ul class="popular-searches__list">
+          <li><a href="#" class="popular-searches__link">Imóveis à venda em São Paulo</a></li>
+          <li><a href="#" class="popular-searches__link">Imóveis novos à venda em São Pa...</a></li>
+          <li><a href="#" class="popular-searches__link">Apartamentos à venda em São Pa...</a></li>
+          <li><a href="#" class="popular-searches__link">Casas à venda em São Paulo</a></li>
+          <li><a href="#" class="popular-searches__link">Imóveis para alugar em São Paulo</a></li>
+        </ul>
+
+        <ul class="popular-searches__list">
+          <li><a href="#" class="popular-searches__link">Imóveis à venda em Rio de Janeiro</a></li>
+          <li><a href="#" class="popular-searches__link">Imóveis novos à venda em Rio de ...</a></li>
+          <li><a href="#" class="popular-searches__link">Apartamentos à venda em Rio de ...</a></li>
+          <li><a href="#" class="popular-searches__link">Casas à venda em Rio de Janeiro</a></li>
+          <li><a href="#" class="popular-searches__link">Imóveis para alugar em Rio de Ja...</a></li>
+        </ul>
+
+        <ul class="popular-searches__list">
+          <li><a href="#" class="popular-searches__link">Imóveis à venda em Belo Horizonte</a></li>
+          <li><a href="#" class="popular-searches__link">Imóveis novos à venda em Belo H...</a></li>
+          <li><a href="#" class="popular-searches__link">Apartamentos à venda em Belo H...</a></li>
+          <li><a href="#" class="popular-searches__link">Casas à venda em Belo Horizonte</a></li>
+          <li><a href="#" class="popular-searches__link">Imóveis para alugar em Belo Horiz...</a></li>
+        </ul>
+
+        <ul class="popular-searches__list">
+          <li><a href="#" class="popular-searches__link">Imóveis à venda em Porto Alegre</a></li>
+          <li><a href="#" class="popular-searches__link">Imóveis novos à venda em Porto ...</a></li>
+          <li><a href="#" class="popular-searches__link">Apartamentos à venda em Porto ...</a></li>
+          <li><a href="#" class="popular-searches__link">Casas à venda em Porto Alegre</a></li>
+          <li><a href="#" class="popular-searches__link">Imóveis para alugar em Porto Ale...</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="pre-footer">
+    <div class="pre-footer__container">
+
+      <div class="pre-footer__column">
+        <h2 class="pre-footer__title">Encontre Imóveis</h2>
+        <ul class="pre-footer__list">
+          <li><a href="#" class="pre-footer__link">Alugar</a></li>
+          <li><a href="#" class="pre-footer__link">Comprar</a></li>
+          <li><a href="#" class="pre-footer__link">Lançamentos</a></li>
+          <li><a href="#" class="pre-footer__link">Descobrir</a></li>
+          <li><a href="#" class="pre-footer__link">Simulador de Financiamento</a></li>
+        </ul>
+      </div>
+
+      <div class="pre-footer__column">
+        <h2 class="pre-footer__title">Institucional</h2>
+        <ul class="pre-footer__list">
+          <li><a href="#" class="pre-footer__link">Trabalhe Conosco</a></li>
+          <li><a href="#" class="pre-footer__link">Ajuda</a></li>
+          <li><a href="#" class="pre-footer__link">Blog</a></li>
+          <li><a href="#" class="pre-footer__link">Mapa do Site</a></li>
+          <li><a href="#" class="pre-footer__link">Regiões mais buscadas</a></li>
+        </ul>
+      </div>
+
+      <div class="pre-footer__column">
+        <h2 class="pre-footer__title">Anunciantes</h2>
+        <ul class="pre-footer__list">
+          <li><a href="#" class="pre-footer__link">Avaliação de Imóveis</a></li>
+          <li><a href="#" class="pre-footer__link">Anunciar Imóveis</a></li>
+          <li><a href="#" class="pre-footer__link">Corretores e Imobiliárias</a></li>
+          <li><a href="#" class="pre-footer__link">Proprietários</a></li>
+        </ul>
+      </div>
+
+      <div class="pre-footer__column">
+        <h2 class="pre-footer__title">Social</h2>
+        <div class="pre-footer__social-icons">
+          <a href="#"><img src="imagem/fecebook.png" alt="Facebook"></a>
+          <a href="#"><img src="imagem/instagram.png" alt="Instagram"></a>
+        </div>
+      </div>
+
     </div>
   </div>
 
+<footer class="main-footer">
+  <div class="footer-info">
+    <p>&copy; 2025 joao vitor meirelles. Todos os direitos reservados.</p>
+    <p class="small-text">Termos e Condições Gerais de Contratação | Aviso de Privacidade</p>
+  </div>
 
-  <footer>
-    <div class="footer-content">
-      <div class="footer-section">
-        <div class="moveis">
-          <h2>Encontre imóveis</h2>
-          <p>Alugar</p>
-          <p>Comprar</p>
-          <p>Lançamentos</p>
-          <p>Descobrir</p>
-          <p>Simulado de Financiamento</p>
-        </div>
-
-        <div class="Institucional">
-          <h2>Institucional</h2>
-          <p>Quer trabalha conosco</p>
-          <p>Ajuda</p>
-          <p>Blog</p>
-          <p>Mapa do site</p>
-          <p>Regiões mais buscadas</p>
-        </div>
-
-        <div class="anunciantes">
-          <h2>Anunciantes</h2>
-          <p>Avaliação de imóveis</p>
-          <p>Anunciar imóveis</p>
-          <p>Anunciar como corretor(a)/imobiliária</p>
-          <p>Anunciar como proprietário(a)</p>
-        </div>
-
-        <div class="social">
-          <h2>Social</h2>
-          <img src="" alt="Fecebook">
-          <img src="" alt="Instagram">
-        </div>
-
-      </div>
-  </footer>
+</footer>
 
   <script src="script.js"></script>
 </body>
