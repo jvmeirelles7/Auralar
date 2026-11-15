@@ -41,12 +41,3 @@ O **Veloce** é um projeto de loja virtual criado para treinar e aprimorar conce
 
 ## 🚧 Status do Projeto
 > O projeto encontra-se atualmente em **pausa estratégica / andamento (WIP)** enquanto exploro outros desafios de código. A arquitetura base, o sistema de favoritos e a sacola estão totalmente funcionais. Retornarei para finalizar os módulos restantes no futuro!
-
----
-
-## ⚙️ Como Executar o Projeto Localmente
-Se quiseres testar o código no teu computador:
-
-1. Clona este repositório:
-   ```bash
-   git clone [https://github.com/TEU_USUARIO/veloce.git](https://github.com/TEU_USUARIO/veloce.git)
