@@ -36,7 +36,7 @@ O **Veloce** é um projeto de loja virtual criado para treinar e aprimorar conce
 - **CSS3** (Flexbox, Grid, variáveis e animações customizadas)
 - **JavaScript (Vanilla / ES6+)** (Manipulação de DOM, eventos e lógica de componentes)
 - **Git & GitHub** (Controle de versão)
-- 
+
 ---
 
 ## 🚧 Status do Projeto
